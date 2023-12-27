@@ -1,8 +1,8 @@
-import Sidenav from './components/Sidenav';
-import About from './components/About';
-import Main from './components/Main';
-import Services from './components/services';
-import Projects from './components/Projects';
+import Sidenav from "./components/Sidenav";
+import About from "./components/About";
+import Main from "./components/Main";
+import Services from "./components/services";
+import Projects from "./components/Projects";
 
 function App() {
   return (

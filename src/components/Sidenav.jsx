@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import {
   AiOutlineHome,
   AiOutlineMail,
   AiOutlineMenu,
   AiOutlineProject,
   AiOutlineUser,
-} from 'react-icons/ai';
-import { MdOutlineHomeRepairService } from 'react-icons/md';
+} from "react-icons/ai";
+import { MdOutlineHomeRepairService } from "react-icons/md";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
-    console.log('state changed');
+    console.log("state changed");
   };
   return (
     <div>
@@ -67,7 +67,7 @@ const Sidenav = () => {
           </a>
         </div>
       ) : (
-        ''
+        ""
       )}
       <div className="md:block hidden fixed top-[25%] z-10">
         <div className="flex flex-col">

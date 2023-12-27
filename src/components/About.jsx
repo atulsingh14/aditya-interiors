@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const About = () => {
   return (
-    <div className="w-full h-fit flex-col justify-center items-center text-center bg-white md:pt-32 md:pb-32 md:pl-64 md:pr-64">
+    <div className="w-full h-[75%] flex-col justify-center items-center text-center bg-white md:pt-32 md:pb-32 md:pl-64 md:pr-64">
       <h1
         className="font-bold sm:text-5xl text-4xl p-8 
     align-middle text-accent"
