@@ -11,7 +11,7 @@ const About = () => {
       </h1>
       <div className="flex justify-center items-center ">
         <p className="  md:w-[60%] font-normal sm:text-1xl text-1xl p-10 pb-15 text-green/90 pt-0">
-          Aditya Interiors, established in 2013 in Gurugram, is a leading
+          Aditya Interiors, established in 2014 in Gurugram, is a leading
           interior solutions provider. Specializing in paint, furniture, civil,
           plumbing, electrical, and renovations, we cater to a diverse clientele
           in both residential and commercial sectors. Our commitment to
