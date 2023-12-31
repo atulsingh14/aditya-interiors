@@ -10,20 +10,27 @@ import { MdOutlineHomeRepairService } from "react-icons/md";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
+
   const handleNav = () => {
     setNav(!nav);
-    console.log("state changed");
   };
+
+  // const Sidenav = () => {
+  //   const [nav, setNav] = useState(false);
+  //   const handleNav = () => {
+  //     setNav(!nav);
+  //     console.log("state changed");
+  //   };
   return (
     <div>
       <AiOutlineMenu
         size={30}
-        color="#3a4220"
+        color="white"
         onClick={handleNav}
         className="absolute top-4 right-4 z-[99] md:hidden"
       />
       {nav ? (
-        <div className="backdrop-blur-md fixed w-full h-screen bg-black/50 flex flex-col justify-center items-center z-20">
+        <div className="fixed w-full h-screen bg-black/50 flex flex-col justify-center items-center z-20">
           <a
             href="#main"
             className="w-[75%] flex justify-center items-center rounded-xl shadow-lg bg-accent shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-105 ease-in duration-200"
@@ -108,3 +115,9 @@ const Sidenav = () => {
 };
 
 export default Sidenav;
+
+/* TODO: Make the Nav bar horizonal and fixed to the top of the page
+    - make the mobile view of the page to be a hamburger menu
+    - figure out the issue with smooth scrolling
+    
+*/
