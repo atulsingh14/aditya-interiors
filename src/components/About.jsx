@@ -11,14 +11,15 @@ const About = () => {
       </h1>
       <div className="flex justify-center items-center ">
         <p className="  md:w-[60%] font-normal sm:text-1xl text-1xl p-10 pb-15 text-green/90 pt-0">
-          Incorporated in the year 2005,Based at Ahmedabad (Gujarat, India), we
-          “Aditya Interiors” have established ourselves as a notable Interior
-          Designers.Our offered information signage is used by offices,
-          hospitals, stores, and schools for publicity purpose. The product
-          range is designed and manufactured using high grade raw material and
-          sophisticated technology in compliance with international quality
-          standards under the guidance of our quality controllers.Gradually We
-          ahve expanded our business to all the Sectors in all over GUJARAT.
+          Aditya Interiors, established in 2013 in Gurugram, is a leading
+          interior solutions provider. Specializing in paint, furniture, civil,
+          plumbing, electrical, and renovations, we cater to a diverse clientele
+          in both residential and commercial sectors. Our commitment to
+          high-quality craftsmanship meets affordability, making us a trusted
+          name. With a vision centered on integrity and innovation, we transform
+          spaces into aesthetic marvels, reflecting our values in every project.
+          Join Aditya Interiors for top-notch interior solutions that redefine
+          living and working spaces.
         </p>
       </div>
     </div>
