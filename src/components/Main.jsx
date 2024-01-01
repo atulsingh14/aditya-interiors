@@ -2,7 +2,7 @@ import React from "react";
 
 function Main() {
   return (
-    <div id="#main">
+    <div id="main">
       <img
         className="backdrop-blur object-cover w-full h-screen "
         src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
